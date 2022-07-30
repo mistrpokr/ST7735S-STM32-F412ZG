@@ -168,7 +168,7 @@ void setOrientation(rotation_t r) {
             XSTART = defXSTART; YSTART = defYSTART;
             break;
         }
-        case R270: { madctl = 0b01000000;
+        case R270: { madctl = 0b00000000;
             WIDTH = defHEIGHT; HEIGHT = defWIDTH;
             XSTART = defYSTART; YSTART = defXSTART;
             break;
